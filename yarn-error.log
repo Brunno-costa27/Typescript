@@ -1,0 +1,41 @@
+Arguments: 
+  /usr/bin/node /usr/local/bin/yarn add express
+
+PATH: 
+  /home/brunno/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  14.18.2
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: true/express: Invalid URI "true/express"
+      at Request.module.exports.Request.init (/usr/local/lib/node_modules/yarn/lib/cli.js:140750:31)
+      at new Request (/usr/local/lib/node_modules/yarn/lib/cli.js:140604:8)
+      at request (/usr/local/lib/node_modules/yarn/lib/cli.js:136804:10)
+      at RequestManager.execute (/usr/local/lib/node_modules/yarn/lib/cli.js:67040:15)
+      at RequestManager.shiftQueue (/usr/local/lib/node_modules/yarn/lib/cli.js:67078:10)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:66747:13
+      at new Promise (<anonymous>)
+      at new F (/usr/local/lib/node_modules/yarn/lib/cli.js:5301:28)
+      at RequestManager.request (/usr/local/lib/node_modules/yarn/lib/cli.js:66745:19)
+      at NpmRegistry.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:31704:42)
+
+npm manifest: 
+  {
+    "name": "aplication-typescript",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
